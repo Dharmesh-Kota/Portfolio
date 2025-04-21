@@ -4,6 +4,18 @@ Welcome to my Machine Learning project portfolio! This repository contains a cur
 
 ---
 
+## 🌐 Website Preview
+
+Here’s a quick preview of how my portfolio website looks:
+
+### 📸 Home
+![Website Preview 1](assets/img/home.png)
+
+### 📸 Portfolio
+![Website Preview 2](assets/img/portfolio.png)
+
+---
+
 ## 🚀 About Me
 
 I'm a B.Tech. Mathematics and Computing student passionate about Machine Learning, Web development, and Problem Solving. This portfolio showcases my journey through various hands-on assignments designed to build a strong foundation in applied ML techniques.
@@ -84,7 +96,7 @@ I'm a B.Tech. Mathematics and Computing student passionate about Machine Learnin
 
 - 📧 Email: dharmeshkota123@example.com
 - 🌐 [LinkedIn](https://www.linkedin.com/in/dharmesh-kota-8a9810268/)
-- 💼 Portfolio Website: [yourname.github.io](https://yourname.github.io)
+- 💼 Portfolio Website: [yourname.github.io](https://dharmesh-kota.github.io/Portfolio/)
 
 ---
 
