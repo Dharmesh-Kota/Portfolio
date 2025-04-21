@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Dharmesh Kota - Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Dharmesh Kota</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#portfolio" class="nav__link">Projects</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home" id="home">
+                <div class="home__container bd-grid">
+                    <h1 class="home__title"><span>HE</span><br>LLO.</h1>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
+                    </div>
+
+                    <img src="assets/img/img5.png" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/img1_about.png" alt="">
+                    </div>
+
+                    <div>
+                        <h2 class="about__subtitle">I'am Dharmesh Kota</h2>
+                        <span class="about__profession">Web Developer</span>
+                        <p class="about__text">I'm an enthusiastic coder and web developer with hands-on experience in building full-stack applications using Node.js for the backend and React.js for the frontend. I enjoy creating clean, efficient, and user-friendly solutions. Beyond web development, I'm passionate about problem-solving and have an interest in Data Structures and Algorithms (DSA).</p>
+
+                        <div class="about__social">
+                            <a href="https://www.instagram.com/dharmesh.2004/" class="about__social-icon"><i class='bx bxl-instagram' ></i></a>
+                            <a href="https://github.com/Dharmesh-Kota" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                            <a href="https://www.linkedin.com/in/dharmesh-kota-8a9810268/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">Development</h3>
+                        <span class="skills__name">Html</span>
+                        <span class="skills__name">Css</span>
+                        <span class="skills__name">Javascript</span>
+                        <span class="skills__name">Node</span>
+                        <span class="skills__name">React</span>
+                        
+                        <h3 class="skills__subtitle">Coding</h3>
+                        <span class="skills__name">C++</span>
+                        <span class="skills__name">Python</span>
+                    </div>
+
+                    <div class="skills__img">
+                        <img src="assets/img/skill.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== PORTFOLIO =====-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section-title">Machine Learning Portfolio</h2>
+        
+                <div class="portfolio__container bd-grid">
+                    <!-- Project 1 -->
+                    <div class="portfolio__img" data-project="project1">
+                        <img src="assets/img/portfolio_1.png" alt="Image recognition system">
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="portfolio__img" data-project="project2">
+                        <img src="assets/img/portfolio_2.png" alt="NLP sentiment analysis">
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="portfolio__img" data-project="project3">
+                        <img src="assets/img/portfolio_3.webp" alt="Time series forecasting">
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 4 -->
+                    <div class="portfolio__img" data-project="project4">
+                        <img src="assets/img/portfolio_4.png" alt="Recommendation system">
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 5 -->
+                    <div class="portfolio__img" data-project="project5">
+                        <img src="assets/img/portfolio_5.webp" alt="Anomaly detection">
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 6 -->
+                    <div class="portfolio__img" data-project="project6">
+                        <img src="assets/img/portfolio_6.png" alt="Reinforcement learning">
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 7 -->
+                    <div class="portfolio__img" data-project="project7">
+                        <img src="assets/img/portfolio_7.webp" alt="Object detection">
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 8 -->
+                    <div class="portfolio__img" data-project="project8">
+                        <img src="assets/img/portfolio_8.webp" alt="Clustering algorithm">
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 9 -->
+                    <div class="portfolio__img" data-project="project9">
+                        <img src="assets/img/portfolio_9.png" alt="Natural language generation">
+                        <div class="portfolio__link">
+                            <a href="#" class="portfolio__link-name">View details</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <!-- Modal for Project 1 -->
+            <div id="modal-project1" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3 class="modal-title"><a href="https://github.com/Dharmesh-Kota/Machine-Learning/tree/main/LAB%201" style="color: #5361FF;">Essential Python Data Libraries</a></h3>
+                    <!-- <img class="modal-image" src="/api/placeholder/800/400" alt="kNN classifier and regression"> -->
+                    
+                    <div class="tech-stack">
+                        <span class="tech-badge">NumPy</span>
+                        <span class="tech-badge">pandas</span>
+                        <span class="tech-badge">Matplotlib</span>
+                        <span class="tech-badge">Python</span>
+                    </div>
+                    
+                    <h4 class="modal-subtitle">Project Overview</h4>
+                    <p>
+                        In this foundational module, I built a robust understanding of the three core Python libraries—NumPy, pandas, and Matplotlib—that underpin every machine learning workflow. From efficient numerical computations to intuitive data handling and expressive visualizations, these skills form the bedrock of both basic and advanced ML projects.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Technical Challenges</h4>
+                    <p>
+                        Learning to leverage NumPy’s vectorized operations and broadcasting rules for high-performance array math, mastering pandas’ DataFrame transformations and handling of missing or heterogeneous data, and crafting clear, publication‑quality charts with Matplotlib’s extensive API required careful study and hands‑on practice.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Results</h4>
+                    <p>
+                        By the end of this module, I was able to seamlessly import and manipulate large datasets, perform complex statistical calculations with concise NumPy code, and generate insightful line plots, bar charts, and histograms to uncover data patterns—ready to tackle any machine learning pipeline.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Key Learnings</h4>
+                    <p>
+                        • NumPy: array slicing, broadcasting, and linear algebra operations for optimized performance.<br>
+                        • pandas: data cleaning, grouping, merging, and time‑series analysis for clean datasets.<br>
+                        • Matplotlib: figure customization, subplots, and annotation techniques for impactful visual storytelling.<br>
+                        These core competencies now drive my transition into more advanced ML and deep learning projects.
+                    </p>
+                </div>
+            </div>            
+        
+            <!-- Modal for Project 2 -->
+            <div id="modal-project2" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3 class="modal-title"><a href="https://github.com/Dharmesh-Kota/Machine-Learning/tree/main/LAB%202" style="color: #5361FF;">Univariate &amp; Multivariate Linear Regression</a></h3>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-badge">NumPy</span>
+                        <span class="tech-badge">pandas</span>
+                        <span class="tech-badge">Matplotlib</span>
+                        <span class="tech-badge">scikit-learn</span>
+                        <span class="tech-badge">Python</span>
+                    </div>
+                    
+                    <h4 class="modal-subtitle">Project Overview</h4>
+                    <p>
+                        In this exercise, we solidified our understanding of linear regression by tackling both the closed-form (normal equation) and iterative (gradient descent) approaches on a real estate valuation dataset. We derived parameters analytically via  
+                        <code>w = (XᵀX)⁻¹Xᵀy</code>, then implemented batch, stochastic, and mini-batch gradient descent to observe convergence behavior across methods.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Technical Challenges</h4>
+                    <p>
+                        Handling a singular <code>XᵀX</code> matrix exposed the issue of collinear features—scikit-learn’s use of the Moore–Penrose pseudo‑inverse gracefully resolves non-invertibility, whereas the normal equation alone fails. Crafting the gradient descent variants required meticulous tuning of learning rates, initialization, and batch sizes. Visualizing the convex loss surface in 3D and animating parameter updates with Matplotlib pushed our plotting skills further.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Results</h4>
+                    <p>
+                        • The closed-form solution matched scikit-learn’s implementation, confirming our derivation.<br>
+                        • All three gradient descent methods converged on the same optimal weights, with batch descent showing the smoothest path and stochastic descent exhibiting more variability.<br>
+                        • The loss surface proved convex, and our Matplotlib animation vividly traced each algorithm’s trajectory.<br>
+                        • Comparing MSE vs. MAE under injected outliers demonstrated MAE’s superior robustness to extreme values.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Key Learnings</h4>
+                    <p>
+                        • <strong>Normal Equation &amp; Pseudo‑Inverse:</strong> Analytical solutions and handling singular matrices.<br>
+                        • <strong>Gradient Descent Variants:</strong> Trade‑offs in convergence speed and stability for batch, stochastic, and mini‑batch.<br>
+                        • <strong>Loss Surface:</strong> Convexity confirmed visually and quantitatively.<br>
+                        • <strong>Data Visualization:</strong> Advanced plotting and animation techniques in Matplotlib.<br>
+                        • <strong>Outlier Robustness:</strong> MAE vs. MSE comparison for real‑world data resilience.
+                    </p>
+                </div>
+            </div>            
+        
+            <!-- Modal for Project 3 -->
+            <div id="modal-project3" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3 class="modal-title"><a href="https://github.com/Dharmesh-Kota/Machine-Learning/tree/main/LAB%203" style="color: #5361FF;">Basis Expansion & Regularized Regression</a></h3>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-badge">NumPy</span>
+                        <span class="tech-badge">pandas</span>
+                        <span class="tech-badge">Matplotlib</span>
+                        <span class="tech-badge">scikit-learn</span>
+                        <span class="tech-badge">Python</span>
+                    </div>
+                    
+                    <h4 class="modal-subtitle">Project Overview</h4>
+                    <p>
+                        In this exercise, we explored bias–variance trade‑offs and model capacity by expanding the true function 
+                        <code>f(x) = x + 2·sin(0.5·x)</code> into polynomial bases. We generated 50 noisy data points over 
+                        <code>[-10, 10]</code>, tracked training vs. test error across polynomial degrees, and then applied regularization to tame overfitting.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Technical Challenges</h4>
+                    <p>
+                        Balancing underfitting and overfitting required choosing the right polynomial degree and dataset size. Implementing Lasso and Ridge regressions for λ ∈ [0, 5] involved hyperparameter tuning and handling weight sparsity vs. shrinkage. Visualizing error curves, weight norms, and overlaying true vs. learned functions pushed our Matplotlib skills to the next level.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Results</h4>
+                    <p>
+                        • The error‑capacity plot exhibited a clear U‑shape, with optimal degree around 5.<br>
+                        • Increasing training data smoothed the overfitted curve toward the true function.<br>
+                        • Lasso (λ≈1.5) achieved lowest validation error and yielded a sparse weight vector.<br>
+                        • Ridge (λ≈2.0) minimized test error with moderate coefficient shrinkage.<br>
+                        • In the real estate regression task, the unregularized model had RMS error ~0.27; standardizing features equalized coefficient scales.<br>
+                        • Residuals followed an approximately normal distribution, confirming model assumptions.<br>
+                        • Cross‑correlation feature selection identified a 3‑feature subset that matched full‑model performance on the test set.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Key Learnings</h4>
+                    <p>
+                        • <strong>Basis Function Expansion:</strong> Controls model capacity and exposes bias–variance trade‑offs.<br>
+                        • <strong>Regularization:</strong> Lasso produces sparse solutions; Ridge provides smooth shrinkage.<br>
+                        • <strong>Hyperparameter Tuning:</strong> Validation curves guide optimal λ selection.<br>
+                        • <strong>Feature Scaling:</strong> Standardization is essential for fair coefficient comparison.<br>
+                        • <strong>Residual Analysis:</strong> Verifying normality ensures regression validity.<br>
+                        • <strong>Feature Selection:</strong> Cross‑correlation efficiently uncovers the most predictive features.
+                    </p>
+                </div>
+            </div>            
+        
+            <!-- Modal for Project 4 -->
+            <div id="modal-project4" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3 class="modal-title"><a href="https://github.com/Dharmesh-Kota/Machine-Learning/tree/main/LAB%204" style="color: #5361FF;">K-Nearest Neighbors Classification & Regression</a></h3>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-badge">kNN</span>
+                        <span class="tech-badge">scikit-learn</span>
+                        <span class="tech-badge">Matplotlib</span>
+                        <span class="tech-badge">Seaborn</span>
+                        <span class="tech-badge">NumPy</span>
+                        <span class="tech-badge">pandas</span>
+                    </div>
+                    
+                    <h4 class="modal-subtitle">Project Overview</h4>
+                    <p>
+                        This project focused on implementing and analyzing the K-Nearest Neighbors (kNN) algorithm for both classification and regression tasks using the "Social Network Ads" dataset. The goal was to determine a user’s likelihood of purchasing a product based on selected features and evaluate various model behaviors across different values of k.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Technical Challenges</h4>
+                    <p>
+                        Developing the kNN classifier from scratch and validating its performance against scikit-learn’s built-in model required careful handling of distance computations, tie-breaking, and decision boundaries. Additionally, performing K-fold cross-validation, confusion matrix analysis, and bootstrap sampling added layers of statistical insight and complexity.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Results</h4>
+                    <p>
+                        • 3D visualizations effectively separated the two classes, revealing natural clusters in feature space.<br>
+                        • The in-house kNN implementation matched the library model's predictions with near-identical accuracy.<br>
+                        • Confusion matrix analysis provided metrics like precision, recall, and F1 score across varying k values, with k=7 yielding the best balance.<br>
+                        • K-fold cross-validation (K=5) showed that k=5 produced the highest average accuracy, confirming its robustness.<br>
+                        • Decision boundary visualizations showed smoother transitions for larger k, with smaller values producing highly complex, overfitted regions.<br>
+                        • For kNN regression (using the first two features to predict the third), MSE was minimized around k=4.<br>
+                        • Bootstrapping revealed that average prediction error across sampled datasets was consistent with the original data error, supporting the model's generalizability.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Key Learnings</h4>
+                    <p>
+                        • <strong>kNN Implementation:</strong> Reinforced distance-based learning and decision logic.<br>
+                        • <strong>Model Evaluation:</strong> Learned to compute accuracy, precision, recall, and F1 score using confusion matrices.<br>
+                        • <strong>Cross-Validation:</strong> Identified optimal k by evaluating model on multiple data splits.<br>
+                        • <strong>Decision Boundaries:</strong> Understood how k impacts model smoothness and generalization.<br>
+                        • <strong>kNN Regression:</strong> Explored extension of kNN to predict continuous variables.<br>
+                        • <strong>Bootstrapping:</strong> Demonstrated how resampling techniques can assess prediction stability.
+                    </p>
+                </div>
+            </div>            
+        
+            <!-- Modal for Project 5 -->
+            <div id="modal-project5" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3 class="modal-title"><a href="https://github.com/Dharmesh-Kota/Machine-Learning/tree/main/LAB%205" style="color: #5361FF;">Classification Techniques: Naïve Bayes, Perceptron &amp; Logistic Regression</a></h3>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-badge">NumPy</span>
+                        <span class="tech-badge">pandas</span>
+                        <span class="tech-badge">Matplotlib</span>
+                        <span class="tech-badge">seaborn</span>
+                        <span class="tech-badge">scikit-learn</span>
+                        <span class="tech-badge">Naïve Bayes</span>
+                        <span class="tech-badge">Perceptron</span>
+                        <span class="tech-badge">Logistic Regression</span>
+                    </div>
+                    
+                    <h4 class="modal-subtitle">Project Overview</h4>
+                    <p>
+                        This multi-part exercise reinforced three core classification paradigms:  
+                        • A Gaussian Naïve Bayes classifier on synthetically sampled data with varying priors and Laplace smoothing.  
+                        • A Perceptron model for binary separation of Iris setosa vs. versicolor using sepal measurements.  
+                        • A Logistic Regression classifier applied to the Social Network Ads dataset to predict purchase behavior from categorical features.  
+                        Through data generation, balanced splitting, training, and evaluation, we explored probabilistic, linear‑separator, and maximum‑likelihood approaches.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Technical Challenges</h4>
+                    <p>
+                        Generating and visualizing histograms for three Gaussian distributions, computing smoothed class‑conditional probabilities, and observing the impact of different prior assumptions on classification outcomes. Implementing the Perceptron update rule from scratch, ensuring convergence on linearly separable Iris classes, and plotting decision boundaries in feature space. For logistic regression, crafting 3D scatter plots, overlaying the learned linear boundary, and extracting confusion‑matrix metrics demanded careful data handling and plotting finesse.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Results</h4>
+                    <p>
+                        • Naïve Bayes accuracy varied with priors—best performance (~90%) under balanced assumptions, histograms confirmed class overlap.  
+                        • Perceptron achieved 0% training error and ~95% test accuracy on setosa vs. versicolor, reflecting perfect linear separability.  
+                        • Logistic Regression reached ~92% test accuracy on Social Network Ads, with precision, recall, and F1‑score all above 0.90.  
+                        • Decision boundary visualizations clearly separated purchase vs. non‑purchase regions in both 2D and 3D feature spaces.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Key Learnings</h4>
+                    <p>
+                        • <strong>Bayesian Priors &amp; Smoothing:</strong> How prior probabilities and Laplace smoothing shape posterior estimates.<br>
+                        • <strong>Linear Separability:</strong> Perceptron convergence guarantees on separable data and the role of feature scaling.<br>
+                        • <strong>Maximum Likelihood:</strong> Interpreting logistic regression coefficients and the sigmoid decision boundary.<br>
+                        • <strong>Visualization:</strong> Effective use of Matplotlib and Seaborn for histograms, scatter plots, and decision boundaries.<br>
+                        • <strong>Evaluation Metrics:</strong> Computing and interpreting accuracy, precision, recall, and F1‑score via confusion matrices.
+                    </p>
+                </div>
+            </div>            
+        
+            <!-- Modal for Project 6 -->
+            <div id="modal-project6" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3 class="modal-title"><a href="https://github.com/Dharmesh-Kota/Machine-Learning/tree/main/LAB%206" style="color: #5361FF;">Logistic Regression: Optimization & Visualization</a></h3>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-badge">NumPy</span>
+                        <span class="tech-badge">pandas</span>
+                        <span class="tech-badge">Matplotlib</span>
+                        <span class="tech-badge">scikit-learn</span>
+                        <span class="tech-badge">Python</span>
+                    </div>
+                    
+                    <h4 class="modal-subtitle">Project Overview</h4>
+                    <p>
+                        We applied binary logistic regression on two datasets—Social Network Ads and the Iris flower data—exploring three optimization strategies: stochastic gradient descent, gradient descent with momentum &amp; regularization, and Newton’s method (IRLS). Each dataset was visualized in 3D and split 90/10 for training and testing, and we compared decision boundaries and convergence behavior.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Technical Challenges</h4>
+                    <p>
+                        Crafting a custom sigmoid function and update routines for SGD, momentum-based GD, and IRLS required careful vectorization. Tuning learning rates, momentum terms, and regularization coefficients while ensuring numerical stability in Hessian inversion tested our algorithmic rigor. Overlaying 3D scatter plots and 2D decision boundaries in Matplotlib honed our visualization skills.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Results</h4>
+                    <p>
+                        • All methods achieved >90% test accuracy on Social Network Ads; IRLS converged in ~15 iterations versus ~200 for GD.<br>
+                        • On the Iris subset (setosa vs. versicolor) and full three-class split, momentum GD reached convergence faster than plain SGD, while Newton’s method was fastest but costliest per iteration.<br>
+                        • Decision boundary plots clearly separated classes, with regularization smoothing the boundary to reduce overfitting.<br>
+                        • Comparing runtime vs. accuracy highlighted the trade‑off between iteration count and per‑step complexity.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Key Learnings</h4>
+                    <p>
+                        • <strong>Optimization Methods:</strong> IRLS offers rapid convergence at higher per‑iteration cost; momentum accelerates GD with minimal overhead.<br>
+                        • <strong>Regularization:</strong> L2 terms in GD reduce overfitting and improve boundary generality.<br>
+                        • <strong>Visualization:</strong> 3D feature-space plots and 2D decision lines deepen understanding of classifier behavior.<br>
+                        • <strong>Model Evaluation:</strong> Consistent training/test splits (90/10) and confusion‑matrix metrics validate performance.<br>
+                        • <strong>Scalability:</strong> Balancing convergence speed, stability, and computational expense guides method selection for large datasets.
+                    </p>
+                </div>
+            </div>            
+        
+            <!-- Modal for Project 7 -->
+            <div id="modal-project7" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3 class="modal-title"><a href="https://github.com/Dharmesh-Kota/Machine-Learning/tree/main/LAB%207" style="color: #5361FF;">Decision Trees: Classification &amp; Regression</a></h3>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-badge">NumPy</span>
+                        <span class="tech-badge">pandas</span>
+                        <span class="tech-badge">Matplotlib</span>
+                        <span class="tech-badge">scikit-learn</span>
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Decision Trees</span>
+                    </div>
+                    
+                    <h4 class="modal-subtitle">Project Overview</h4>
+                    <p>
+                        We applied decision tree algorithms to two classic tasks: classifying cars using the CarEvaluation dataset and predicting housing prices with the Boston housing data. For classification, we built trees with entropy (ID3) and Gini (CART), then applied cost‑complexity pruning and cross‑validation to find the optimal α. For regression, we used recursive binary splitting on MEDV and similarly pruned with α selection, visualizing pruned tree structures and plotting predicted MEDV against key features (CRIM, INDUS, AGE).
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Technical Challenges</h4>
+                    <p>
+                        Growing full-depth trees generated complex, overfitted models; implementing cost‑complexity pruning required iterating over α values and averaging accuracy via cross‑validation. Visualizing large tree structures in Matplotlib and exporting to dot files tested our plotting and data handling skills. In regression, mapping continuous predictions onto scatter plots of MEDV vs. CRIM, INDUS, and AGE demanded careful axis scaling and interpretation.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Results</h4>
+                    <p>
+                        • Classification: Pruned trees achieved peak accuracy (~88%) at α≈0.01, with simpler trees retaining interpretability and reduced variance.<br>
+                        • Regression: Optimal α≈0.02 yielded lowest validation MSE (~12.5), and pruned regression trees accurately traced housing price trends against crime rate, industry share, and building age.<br>
+                        • Visualizations: Clear plots of accuracy vs. α, pruned tree diagrams, and MEDV regression curves demonstrated the effect of pruning on both tasks.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Key Learnings</h4>
+                    <p>
+                        • <strong>Bias–Variance Trade‑off:</strong> Pruning balances model complexity and generalization.<br>
+                        • <strong>Hyperparameter Tuning:</strong> Cross‑validation over α is crucial for optimal tree size.<br>
+                        • <strong>Interpretability:</strong> Decision trees offer transparent rules but require pruning for clarity.<br>
+                        • <strong>Visualization:</strong> Effective use of Matplotlib for tree plots and regression curves.<br>
+                        • <strong>Library Proficiency:</strong> Leveraging scikit‑learn’s tree API streamlines both classification and regression workflows.
+                    </p>
+                </div>
+            </div>            
+        
+            <!-- Modal for Project 8 -->
+            <div id="modal-project8" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3 class="modal-title"><a href="https://github.com/Dharmesh-Kota/Machine-Learning/tree/main/LAB%208" style="color: #5361FF;">Decision Trees, Ensemble Methods &amp; Boosting</a></h3>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-badge">NumPy</span>
+                        <span class="tech-badge">pandas</span>
+                        <span class="tech-badge">Matplotlib</span>
+                        <span class="tech-badge">scikit-learn</span>
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Decision Trees</span>
+                        <span class="tech-badge">Ensemble Methods</span>
+                        <span class="tech-badge">Boosting</span>
+                    </div>
+                    
+                    <h4 class="modal-subtitle">Project Overview</h4>
+                    <p>
+                        This comprehensive assignment explored decision tree classifiers and regressors on the CarEvaluation and Boston housing datasets, then extended to ensemble and boosting methods. We tuned tree depth (T) and minimum leaf size (S) via cross-validation, applied bagging and random forests (varying B and m), and implemented AdaBoost for classification and Gradient Boosting (GBRT) for regression. Finally, we compared pruning, bagging, and boosting across accuracy, MSE, training time, and prediction variance.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Technical Challenges</h4>
+                    <p>
+                        Selecting optimal stopping criteria (depth T or leaf size S) required nested cross-validation; balancing B in bagging and m‑feature splits in random forests demanded systematic grid searches. Implementing AdaBoost stumps and tuning estimator count N, as well as GBRT’s learning rate η and estimator count, involved careful convergence monitoring. Compiling comparative metrics into clear tables and visualizing pruned trees, error vs. B curves, and MSE vs. N plots pushed our data presentation skills.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Results</h4>
+                    <p>
+                        • Classification: Optimal depth T≈6 yielded ~85% accuracy; bagging peaked at B=250 with ~89%; random forest (m=4) reached ~92%.<br>
+                        • Regression: With S=4, pruned tree MSE≈14; bagging best at B=250 reduced MSE to ~10; random forest (m=7) further lowered MSE to ~8.<br>
+                        • Boosting: AdaBoost (N≈150) achieved ~94% accuracy, while GBRT (η=0.1, N≈100) minimized MSE to ~6.<br>
+                        • Comparative: Boosting provided highest generalization but at greater training time; bagging offered a balance of speed and performance; pruning remained fastest and most interpretable.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">Key Learnings</h4>
+                    <p>
+                        • <strong>Hyperparameter Tuning:</strong> Depth, leaf size, B, m, N, and η critically impact performance.<br>
+                        • <strong>Bias–Variance Trade‑off:</strong> Pruning vs. bagging vs. boosting illustrate different strategies to control variance and bias.<br>
+                        • <strong>Ensembles:</strong> Bagging and random forests improve stability; boosting achieves superior accuracy through weighted updates.<br>
+                        • <strong>Interpretability vs. Performance:</strong> Pruned trees are easier to interpret, while ensembles and boosting offer higher accuracy at the cost of complexity.<br>
+                        • <strong>Visualization &amp; Reporting:</strong> Plotting error curves, tree diagrams, and comparative tables is essential for clear model evaluation.
+                    </p>
+                </div>
+            </div>            
+        
+            <!-- Modal for Project 9 -->
+            <div id="modal-project9" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3 class="modal-title"><a href="https://github.com/Dharmesh-Kota/Machine-Learning/tree/main/LAB%209" style="color: #5361FF;">SVMs &amp; K-Means Clustering</a></h3>
+                    
+                    <div class="tech-stack">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">CVXPY</span>
+                        <span class="tech-badge">scikit-learn</span>
+                        <span class="tech-badge">Matplotlib</span>
+                        <span class="tech-badge">NumPy</span>
+                        <span class="tech-badge">SVM</span>
+                        <span class="tech-badge">K-Means</span>
+                    </div>
+            
+                    <h4 class="modal-subtitle">Project Overview</h4>
+                    <p>
+                        This assignment explored Support Vector Machines (SVMs) and K-Means clustering. On the Iris dataset, we implemented both hard-margin and soft-margin SVMs by solving the dual optimization problem using <code>CVXPY</code>. We also compared results against <code>scikit-learn</code>’s SVM. For clustering, we built K-Means from scratch and applied it on two custom datasets (Q2a and Q2b), analyzing cluster evolution for different K values and using the Elbow method to determine optimal K.
+                    </p>
+                    
+                    <h4 class="modal-subtitle">SVM Highlights</h4>
+                    <p>
+                        • Implemented dual-form SVM with and without normalization.<br>
+                        • Plotted decision boundaries, margins, and highlighted support vectors for each case.<br>
+                        • Compared CVXPY-based results with sklearn's SVM (linear kernel), noting minor numerical differences but similar margin geometry.<br>
+                        • Normalization showed a clear improvement in margin consistency across all implementations.
+                    </p>
+            
+                    <h4 class="modal-subtitle">K-Means Clustering</h4>
+                    <p>
+                        • Implemented from scratch using random initialization.<br>
+                        • Visualized clustering for each K from 1 to 10 on both datasets.<br>
+                        • Elbow plots helped identify optimal cluster count (e.g., K=3 for Q2a, K=5 for Q2b).<br>
+                        • Captured cluster evolution through color-coded scatter plots, showcasing centroid movement over iterations.
+                    </p>
+            
+                    <h4 class="modal-subtitle">Key Learnings</h4>
+                    <p>
+                        • <strong>SVM:</strong> Dual problem formulation provides more control and visualization, while sklearn offers efficiency and ease. Hard vs. soft margin tuning significantly impacts support vector distribution.<br>
+                        • <strong>K-Means:</strong> Initialization affects convergence; elbow method is intuitive but should be combined with domain insight.<br>
+                        • <strong>Normalization:</strong> Essential for margin-based classifiers and distance-based clustering.<br>
+                        • <strong>Visualization:</strong> Plotting support vectors and cluster evolution is invaluable for interpretation and debugging.
+                    </p>
+                </div>
+            </div>
+            
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">dharmeshkota123@gmail.com</span>
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+91 9978481441</span>
+
+                        <h3 class="contact__subtitle">ADRESS</h3>
+                        <span class="contact__text">Ahmedabad, Gujarat, India</span>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                        <input type="submit" value="Submit" class="contact__button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer section">
+            <div class="footer__container bd-grid">
+                <div class="footer__data">
+                    <h2 class="footer__title">Dharmesh Kota</h2>
+                    <p class="footer__text">I'm Dharmesh Kota and this is my personal website</p>
+                </div>
+
+                <div class="footer__data">
+                    <h2 class="footer__title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="#home" class="footer__link">Home</a></li>
+                        <li><a href="#about" class="footer__link">About</a></li>
+                        <li><a href="#skills" class="footer__link">Skills</a></li>
+                        <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                        <li><a href="#Contact" class="footer__link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h2 class="footer__title">FOLLOW</h2>
+                    <a href="https://www.instagram.com/dharmesh.2004/" class="about__social-icon"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://github.com/Dharmesh-Kota" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.linkedin.com/in/dharmesh-kota-8a9810268/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+
+
+            </div>
+        </footer>
+
+        <script>
+            // Get all project cards
+            const portfolioItems = document.querySelectorAll('.portfolio__img');
+            
+            // Add click event to each project card
+            portfolioItems.forEach(item => {
+                const projectId = item.getAttribute('data-project');
+                const modal = document.getElementById(`modal-${projectId}`);
+                const closeBtn = modal.querySelector('.close');
+                
+                // Open modal when clicking on project card
+                item.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    modal.style.display = 'block';
+                });
+                
+                // Close modal when clicking on close button
+                closeBtn.addEventListener('click', () => {
+                    modal.style.display = 'none';
+                });
+                
+                // Close modal when clicking outside of it
+                window.addEventListener('click', (e) => {
+                    if (e.target === modal) {
+                        modal.style.display = 'none';
+                    }
+                });
+            });
+        </script>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
