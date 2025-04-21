@@ -96,7 +96,7 @@ I'm a B.Tech. Mathematics and Computing student passionate about Machine Learnin
 
 - 📧 Email: dharmeshkota123@example.com
 - 🌐 [LinkedIn](https://www.linkedin.com/in/dharmesh-kota-8a9810268/)
-- 💼 Portfolio Website: [yourname.github.io](https://dharmesh-kota.github.io/Portfolio/)
+- 💼 Portfolio Website: [dharmesh-kota/Portfolio.github.io](https://dharmesh-kota.github.io/Portfolio/)
 
 ---
 

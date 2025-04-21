@@ -203,13 +203,65 @@ img{
     transform: rotate(-180deg);
     color: var(--white-color);
 }
-.home__img{
-    left: 50%;
+/* Base styles for the image (desktop version) */
+.home__img {
     position: absolute;
+    left: 50%;
     right: 0;
     bottom: 0;
     width: 155px;
     height: 750px;
+    z-index: 1;
+}
+
+@media (max-width: 1200px) {
+    .home__img {
+        width: 140px;
+        height: 700px;
+        left: 50%
+    }
+}
+@media (max-width: 992px) {
+    .home__img {
+        width: 130px;
+        height: 650px;
+        left: 50%
+    }
+}
+@media (max-width: 768px) {
+    .home__img {
+        width: 110px;
+        height: 550px;
+        bottom: 0;
+        left: 35%
+    }
+}
+@media (max-width: 576px) {
+    .home__img {
+        width: 90px;
+        height: 450px;
+        bottom: 0;
+        left: 25%
+    }
+}
+@media (max-width: 480px) {
+    .home__img {
+        width: 85px;
+        height: 400px;
+        
+    }
+}
+@media (max-width: 380px) or (max-height: 700px) {
+    .home__img {
+        width: 75px;
+        height: 350px;
+    }
+}
+@media (max-aspect-ratio: 3/4) {
+    .home__img {
+        height: 60vh;
+        width: auto;
+    }
 }
 
 /* ===== ABOUT =====*/
